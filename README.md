@@ -1,26 +1,30 @@
-📌 Project Title:
-Machine Learning for Clustering & Dimensionality Reduction in Hyperspectral and Remote Sensing Images
+# 🖼️ Clustering and Dimensionality Reduction in Image Data
 
-🔍 Objective
-The primary goal of this project is to analyze and cluster image data using machine learning techniques, comparing different methods to assess their effectiveness. Specifically, it involves:
+This project explores machine learning techniques for clustering and dimensionality reduction applied to hyperspectral and remote sensing images. The primary objective is to analyze and cluster image data using various methods, assessing their effectiveness and comparing results.
 
-Clustering Methods: K-Means and Fuzzy C-Means.
-Dimensionality Reduction: Principal Component Analysis (PCA).
-Feature Extraction: Using a pre-trained Convolutional Neural Network (CNN) to extract image features.
-🏗 Project Structure
-Part 1: Hyperspectral Image Analysis
-Apply K-Means and Fuzzy C-Means clustering.
-Reduce dimensionality using PCA.
-Analyze the effectiveness of clustering in the reduced space.
-Part 2: Remote Sensing Image Analysis
-Work with remote sensing data.
-Extract image features using a pre-trained CNN.
-Compare clustering results using CNN-based features vs. raw pixel values.
-🛠 Tools & Technologies
-Python 🐍
-Libraries: numpy, pandas, matplotlib, seaborn, scikit-learn, scipy
-Deep Learning Framework: TensorFlow or PyTorch (for CNN feature extraction)
-📊 Expected Results
-Evaluation of clustering quality on hyperspectral and remote sensing data.
-Understanding the impact of dimensionality reduction on clustering.
-Comparison of clustering results using raw pixels vs. CNN-extracted features.
+## 🎯 Objectives
+
+- **Clustering Methods**: Implement and compare **K-Means** and **Fuzzy C-Means** algorithms.
+- **Dimensionality Reduction**: Apply **Principal Component Analysis (PCA)** to reduce the dimensionality of hyperspectral images.
+- **Feature Extraction**: Utilize a pre-trained **Convolutional Neural Network (CNN)** to extract features from remote sensing images for clustering purposes.
+
+## 🗂️ Project Structure
+
+1. **Part 1: Hyperspectral Image Analysis**
+   - **Clustering**: Apply K-Means and Fuzzy C-Means algorithms to hyperspectral images.
+   - **Dimensionality Reduction**: Use PCA to reduce image dimensionality.
+   - **Evaluation**: Assess clustering effectiveness in the reduced dimensional space.
+
+2. **Part 2: Remote Sensing Image Analysis**
+   - **Feature Extraction**: Employ a pre-trained CNN to extract features from remote sensing images.
+   - **Clustering**: Perform clustering on extracted features and compare results with clustering based on raw pixel values.
+
+## 🛠️ Tools & Technologies
+
+- **Programming Language**: Python
+- **Libraries**:
+  - Data Manipulation: `numpy`, `pandas`
+  - Visualization: `matplotlib`
+  - Machine Learning: `scikit-learn`
+  - Deep Learning: `tensorflow` or `pytorch` (for CNN feature extraction)
+
